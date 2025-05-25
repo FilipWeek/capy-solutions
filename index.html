@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capy Solutions | Reparación de PCs y Consolas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      color: #2b2b2b;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background-color: #1f1f1f;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 45px;
+      margin-right: 12px;
+      border-radius: 50%;
+    }
+
+    .logo h1 {
+      color: #3AAFA9;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 20px;
+      padding: 8px 16px;
+      background-color: #ff6d00;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #e55d00;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      max-width: 700px;
+    }
+
+    .hero a {
+      background-color: #3AAFA9;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #2e8e87;
+    }
+
+    /* SERVICIOS */
+    .servicios {
+      padding: 60px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .servicios h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .servicio-lista {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .servicio-item {
+      background-color: #f9f9f9;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .servicio-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .servicio-item h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #3AAFA9;
+    }
+
+    .servicio-item p {
+      font-size: 16px;
+      color: #444;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo-capybara.jpg" alt="Logo Capybara Solutions">
+      <h1>Capy Solutions</h1>
+    </div>
+    <div class="nav-links">
+      <a href="https://wa.me/5215512345678">WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h2>Reparaciones sin estrés</h2>
+      <p>Mantenimiento para tus dispositivos y componentes de calidad. ¡Como una capibara, somos rápidos y confiables!</p>
+      <a href="https://wa.me/5215578607536">¡Cotiza ahora!</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicio-lista">
+      <div class="servicio-item">
+        <h3>🖥️ Reparación de PCs</h3>
+        <p>Limpieza, eliminación de virus, cambio de hardware y más.</p>
+      </div>
+      <div class="servicio-item">
+        <h3>🎮 Mantenimiento de Consolas</h3>
+        <p>PS5, Xbox, Nintendo Switch: limpieza y reparación profesional.</p>
+      </div>
+      <div class="servicio-item">
+        <h3>💾 Venta de Componentes</h3>
+        <p>Discos SSD, RAM, tarjetas gráficas y accesorios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Capy Solutions. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
